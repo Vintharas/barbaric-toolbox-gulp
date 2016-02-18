@@ -1,0 +1,23 @@
+{
+  "name": "barbaric-toolbox-gulp",
+  "version": "1.0.0",
+  "description": "Sample code for the Barbaric Toolbox Gulp Series",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vintharas/barbaric-toolbox-gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vintharas/barbaric-toolbox-gulp/issues"
+  },
+  "homepage": "https://github.com/Vintharas/barbaric-toolbox-gulp#readme"
+}
