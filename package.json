@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-print": "^2.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

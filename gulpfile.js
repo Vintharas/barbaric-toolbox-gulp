@@ -1,4 +1,5 @@
-var gulp = require('gulp');
+var gulp = require('gulp'),
+    print = require('gulp-print');
 
 
 gulp.task('puny-human', function(){
@@ -6,6 +7,7 @@ gulp.task('puny-human', function(){
 });
 
 gulp.task('build', function(){
-    return gulp.src('app/js/**/*.js')
+    return gulp.src('app/**/*.*')
+            .pipe(print())
             .pipe(gulp.dest('build'));
 });
