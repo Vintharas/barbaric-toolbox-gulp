@@ -11,3 +11,7 @@ gulp.task('build', function(){
             .pipe(print())
             .pipe(gulp.dest('build'));
 });
+
+gulp.task('watch', function(){
+    gulp.watch('app/**/*.*', ['build']);
+});
