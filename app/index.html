@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="libs/polyfill.js"></script>
+        <script src="libs/system.js"></script>
+        <script>
+        // set our baseURL reference path
+        System.config({
+            packages: {        
+                js: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+        }});
+                  
+         System.import('js/more-codes.js')
+                     .then(null, console.error.bind(console));
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
