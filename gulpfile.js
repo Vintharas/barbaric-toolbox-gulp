@@ -11,8 +11,7 @@ gulp.task('js', function() {
     return gulp.src('app/**/*.js')
         .pipe(print())
         .pipe(babel({
-        presets: ['es2015'],
-        plugins: ['transform-es2015-modules-systemjs'] 
+            presets: ['es2015']
         }))
         .pipe(gulp.dest('build'));
 });

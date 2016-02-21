@@ -10,8 +10,12 @@
                 js: {
                     format: 'register',
                     defaultExtension: 'js'
-                }
-        }});
+                },
+            },
+            meta: {
+                'js/*': {format: 'cjs'}
+            }
+        });
                   
          System.import('js/more-codes.js')
                      .then(null, console.error.bind(console));
